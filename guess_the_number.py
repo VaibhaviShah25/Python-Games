@@ -103,11 +103,11 @@ l5 = Label(win,text="Your Guess Result",bg = "black",fg = "yellow")
 l5.place(x=180,y=270)
 
 #making menu
-'''mb = Menu(win)
+mb = Menu(win)
 win.config(menu=mb)
 m1 = Menu(mb)
 m1.add_command(label="Highest points",command=highest_points)
 m1.add_command(label="Search",command=search)
-mb.add_cascade(label="Functions",menu=m1,underline=2)'''
+mb.add_cascade(label="Functions",menu=m1,underline=2)
 
 win.mainloop()
